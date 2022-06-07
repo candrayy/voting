@@ -19,6 +19,11 @@ return new class extends Migration
             $table->string('password');
             $table->timestamps();
         });
+
+        DB::table('admins')->insert([
+            'username' => 'admin',
+            'password' => Hash::make('admin'),
+        ]);
     }
 
     /**
