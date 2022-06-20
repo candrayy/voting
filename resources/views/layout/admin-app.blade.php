@@ -63,7 +63,7 @@
     </div>
     {{ $slot }}
     <footer class="bg-dark text-center p-2">
-        <h4 class="text-white">Simple voting system in Dashboard powered by hilal ahmad</h4>
+        <h4 class="text-white">Simple voting system in Dashboard powered by Ricko</h4>
     </footer>
     <!-- Latest compiled JavaScript -->
     <script src=" {{ asset('js/bootstrap.min.js') }}"></script>
